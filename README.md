@@ -15,3 +15,8 @@ My Frontend Mentor Profile - [@26TracyNjoroge](https://www.frontendmentor.io/pro
 Below is a list of the completed challenges:
 
 - [Blog Preview Page](https://frontend-mentor-blog-preview-page.vercel.app/)
+
+- [Recipe Page](https://frontend-mentor-recipe-page-hazel-ten.vercel.app/)
+
+- [Social Links Profile](https://frontend-mentor-social-links-profile-seven-xi.vercel.app/)
+
