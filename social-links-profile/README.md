@@ -15,7 +15,7 @@ Users using the page should be able to:
 ### Links
 
 - Github Repository: [Repository](https://github.com/26TracyNjoroge/Frontend-Mentor/tree/main/social-links-profile)
-- Live Site URL: [Live Demo](https://26tracynjoroge.github.io/social-links-profile-main/)
+- Live Site URL: [Live Demo](https://frontend-mentor-social-links-profile-seven-xi.vercel.app/)
 
 ## My process
 
