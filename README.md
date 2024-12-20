@@ -20,3 +20,5 @@ Below is a list of the completed challenges:
 
 - [Social Links Profile](https://frontend-mentor-social-links-profile-seven-xi.vercel.app/)
 
+- [Results Summary Page](https://frontend-mentor-results-summary-page.vercel.app/)
+
