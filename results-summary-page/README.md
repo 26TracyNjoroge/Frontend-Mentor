@@ -5,7 +5,7 @@ This is a solution to the [Result summary page challenge on Frontend Mentor](htt
 ### Links
 
 - GitHub Repository: [Repository](https://github.com/26TracyNjoroge/Frontend-Mentor/tree/main/results-summary-page)
-- Live Site URL: [Live Demo](https://frontend-mentor-five-iota.vercel.app/)
+- Live Site URL: [Live Demo](https://frontend-mentor-results-summary-page.vercel.app/)
 
 ## Author
 
