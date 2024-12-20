@@ -5,7 +5,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - GitHub Repository: [Repository](https://github.com/26TracyNjoroge/Frontend-Mentor/tree/main/recipe-page)
-- Live Site URL: [Live Demo](https://frontend-mentor-recipepage.vercel.app/)
+- Live Site URL: [Live Demo](https://frontend-mentor-recipe-page-hazel-ten.vercel.app/)
 
 ## My process
 
