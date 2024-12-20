@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /*Primary*/
+    --light-red: hsl(0, 100%, 67%);
+    --orangey-yellow: hsl(39, 100%, 56%);
+    --green-teal: hsl(166, 100%, 37%);
+    --cobalt-blue: hsl(234, 85%, 45%);
+
+    /*Neutral*/
+    --neutral-white: hsl(0, 0%, 100%);
+    --pale-blue: hsl(221, 100%, 96%);
+    --light-lavendar: hsl(241, 100%, 89%);
+    --darkgray-blue: hsl(224, 30%, 27%);
+
+    /*Background gradient*/
+    --lightslate-blue: hsl(252, 100%, 67%);
+    --lightroyal-blue: hsl(241, 81%, 54%);
+
+    /*Circle gradient*/
+    --violet-blue: hsla(256, 72%, 46%, 1);
+    --persian-blue: hsla(241, 72%, 46%, 0);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--neutral-white);
+    padding-top: 88px;
+    padding-bottom: 8px;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: column; */
+    max-width: 600px;
+    border-radius: 24px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 70px;
+    padding-bottom: 30px;
+}
+
+.result {
+    background-image: linear-gradient(var(--lightslate-blue), 
+    var(--lightroyal-blue));
+    padding: 15px 46px 50px 46px;
+    text-align: center;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    
+}
+
+.result h2 {
+    color: var(--neutral-white);
+    font-size: 1.25rem;
+    margin-bottom: 26px;
+    font-weight: 700;
+    opacity: 0.8;
+
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(var(--violet-blue), var(--persian-blue));
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.circle .score {
+    color: var(--neutral-white);
+    font-size: 3.625rem;
+    font-weight: 700;
+}
+
+.circle .total {
+    color: var(--neutral-white);
+    font-size: 0.875rem;
+    font-weight: 700;
+    opacity: 0.5;
+}
+
+.result h3 {
+    color: var(--neutral-white);
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.result p {
+    color: hsl(0, 0%, 100%);
+    font-size: 0.901rem;
+    line-height: 1.25;
+    opacity: 0.7;
+}
+
+
+.summary {
+    width: 50%;
+    padding: 15px 46px 50px 46px;
+}
+
+.summary h2 {
+    color: var(--darkgray-blue);
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.summary {
+    width: 50%;
+    padding: 40px;
+    font-size: 1.1rem;
+    padding-top: 16px;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1.25rem;
+    width: 90%;
+}
+
+.categories > div {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 0 5px;
+} 
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+  
+.icon img {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.rating p {
+    color: var(--darkgray-blue);
+}
+
+.reaction, .memory, .verbal, .visual {
+    height: 2.438rem;
+}
+
+.reaction {
+    color: var(--light-red);
+    background-color: #FFF6F5;
+  }
+  
+.memory {
+    color: var(--orangey-yellow);
+    background-color: #FFFBF2;
+}
+  
+.verbal {
+    color: var(--green-teal);
+    background-color: #F2FBFA;
+}
+  
+.visual {
+    color: var(--violet-blue);
+    background-color: #F3F3FD;
+}
+
+button.btn {
+    cursor: pointer;
+    width: 90%;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--darkgray-blue);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+    margin-top: 36px;
+}
+
+button:hover {
+    background-image: linear-gradient( var(--lightslate-blue), var(--lightroyal-blue))
+}
+
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width:480px) {
+
+    body {
+        justify-content: start;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+
+    .result, .summary {
+        width: 100%;
+        border-radius: 0 0 30px 30px;
+    }
+
+    .summary {
+        align-items: flex-start;
+        margin: 1rem 0;
+        padding: 0 2rem;
+    }
+}
