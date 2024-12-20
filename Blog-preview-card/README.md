@@ -4,8 +4,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- GitHub Repository: [Repository](https://github.com/26TracyNjoroge/Frontend-Mentor/tree/main/Blog-Preview-Card)
-- Live Site URL: [Live Demo](https://frontendmentor-blog-preview-card-six.vercel.app/)
+- GitHub Repository: [Repository](https://github.com/26TracyNjoroge/Frontend-Mentor/tree/main/Blog-preview-card)
+- Live Site URL: [Live Demo](https://frontend-mentor-blog-preview-page.vercel.app/)
 
 ## My process
 
