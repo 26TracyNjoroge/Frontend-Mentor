@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.socials {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+    width: 22rem;
+    height: 32rem;
+    padding: 24px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.social-name {
+    margin-bottom: 4px;
+    font-size: 26px;
+}
+
+.social-place {
+    margin-top: 0;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+  
+}
+
+.social-goal {
+    margin: 18px 0;
+    font-weight: 400;
+
+}
+
+.social-link {
+    border: 1px solid hsl(0, 0%, 12%);
+    background-color: hsl(0, 0%, 20%); 
+    padding: 10px;
+    border-radius: 10px; 
+    margin-bottom: 9px; 
+    font-weight: 700;
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.infor {
+    margin-top: 16px;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.social-link:hover, .social-link:focus {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+.infor a {
+    color: hsl(0, 0, 100%);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.infor a:hover,
+.infor a:focus {
+    color: hsl(75, 94%, 57%);
+    outline: none;
+} 
+
+
+
+
+
+
+
