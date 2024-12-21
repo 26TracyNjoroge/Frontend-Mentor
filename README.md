@@ -22,3 +22,5 @@ Below is a list of the completed challenges:
 
 - [Results Summary Page](https://frontend-mentor-results-summary-page.vercel.app/)
 
+- [Qr Code Component](https://frontend-mentor-qr-code-component-smoky.vercel.app/)
+
