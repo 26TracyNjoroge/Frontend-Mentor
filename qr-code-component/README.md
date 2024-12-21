@@ -1,11 +1,11 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Qr code component solution
 
 This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
 
 ### Links
 
 - GitHub Repository: [Repository](https://github.com/26TracyNjoroge/Frontend-Mentor/tree/main/qr-code-component)
-- Live Site URL: [Live Demo](https://frontend-mentor-blog-preview-page.vercel.app/)
+- Live Site URL: [Live Demo](https://frontend-mentor-qr-code-component-smoky.vercel.app/)
 
 ## My process
 
