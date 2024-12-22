@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
---white: hsl(0, 0%, 100%);
+--clr-white: hsl(0, 0%, 100%);
 
---Slate-300: hsl(212, 45%, 89%);
---Slate-500: hsl(216, 15%, 48%);
---Slate-900: hsl(218, 44%, 22%);
+--clr-Slate-300: hsl(212, 45%, 89%);
+--clr-Slate-500: hsl(216, 15%, 48%);
+--clr-Slate-900: hsl(218, 44%, 22%);
 }
 
 * {
@@ -15,21 +15,22 @@
 }
 
 body {
+    text-align: center;
     font-size: 0.938rem;
     font-family: "Be Vietnam Pro", serif;
-    min-height: 100vh;
+    min-height: 100svh;
     display: flex;
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
     margin: 0;
-    background-color: var(--Slate-300);
+    background-color: var(--clr-Slate-300);
+    padding: 16px;
 }
   
-  .container {
-    width: 380px;
-    height: auto;
-    background-color: var(--white);
+  .qr-code-container {
+    max-width: 24rem;
+    background-color: var(--clr-white);
     padding: 18px;
     border-radius: 18px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -40,38 +41,32 @@ body {
     margin-top: auto;
     text-align: center;
     width: 100%;
+    font-size: 0.688rem; 
   }
 
-h2 {
-    color: var(--Slate-900);
+.qr-code-title {
+    color: var(--clr-Slate-900);
     font-size: 1.4rem;
     line-height: 1.15;
     margin-bottom: 16px;
     font-weight: 700;
-    text-align: center;
     padding: 0 28px;
 }
 
-p {
-    color: var(--Slate-500);
+.qr-code-description {
+    color: var(--clr-Slate-500);
     line-height: 1.4;
     margin-bottom: 14px;
-    text-align: center;
     padding: 0 28px;
-    font-weight: 400;
 }
 
 
-.qr-img{
-    width: 100%;
+.qr-code-img{
+    max-width: 100%;
+    display: block;
+    height: auto;
     border-radius: 12px;
     margin-bottom: 22px;
-}
-
-
-.attribution {
-     font-size: 11px; 
-     text-align: center; 
 }
 
 .attribution a {
