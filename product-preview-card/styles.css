@@ -1,0 +1,33 @@
+:root {
+    /* Primary colors */
+    --clr-dark-cyan: hsl(158, 36%, 37%);
+    --clr-cream: hsl(30, 38%, 92%);
+
+    /* Neutral colors */
+    --clr-very-dark-blue: hsl(212, 21%, 14%);
+    --clr-dark-grayish-blue: hsl(228, 12%, 48%);
+    --clr-White: hsl(0, 0%, 100%);
+}
+
+*,
+*::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    /* font-family: "Montserrat", serif; */
+    /* font-family: "Fraunces", serif; */
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
