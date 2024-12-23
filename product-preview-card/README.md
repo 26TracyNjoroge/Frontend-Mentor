@@ -4,8 +4,8 @@ This is a solution to the [Product preview card challenge on Frontend Mentor](ht
 
 ### Links
 
-- GitHub Repository: [Repository]()
-- Live Site URL: [Live Demo]()
+- GitHub Repository: [Repository](https://github.com/26TracyNjoroge/Frontend-Mentor/tree/main/product-preview-card)
+- Live Site URL: [Live Demo](https://frontend-mentor-product-preview-card-swart.vercel.app/)
 
 ## Author
 
