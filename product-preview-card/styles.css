@@ -32,7 +32,7 @@ figcaption {
 
 body {
     font-size: 1rem;
-    font-family: "Fraunces", serif;
+    /* font-family: "Fraunces", serif; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,6 +69,11 @@ button:hover {
 
 picture {
     width: 50%;
+}
+
+.product-name,
+.price {
+    font-family: "Fraunces", serif;
 }
 
 picture,
@@ -111,7 +116,6 @@ span img {
     color: var(--clr-very-dark-blue);
     font-weight: 700;
     font-size: 2rem;
-    font-family: "Fraunces", serif;
     line-height: 1;
     margin-bottom: 20px;
 }
@@ -125,7 +129,6 @@ span img {
 .price {
     color: var(--clr-dark-cyan);
     font-weight: 700;
-    font-family: "Fraunces", serif;
     font-size: 1.9rem;
 }
 
