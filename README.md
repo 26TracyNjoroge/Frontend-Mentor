@@ -1,17 +1,18 @@
 # Frontend Mentor Challenges
 
-This repository contains my solutions to various **Frontend Mentor** challenges. Each challenge is stored in its own folder along with a project-specific `README.md` describing the solution.
+This repository contains my solutions to various Frontend Mentor challenges. Each challenge is stored in its own folder along with a project-specific `README.md` describing the solution.
 
 ## About Frontend Mentor
-
 Frontend Mentor provides real-world projects to help developers practice and enhance their front-end coding skills. The challenges are designed for different skill levels, from beginner to advanced.
 
 You can learn more about Frontend Mentor [here](https://www.frontendmentor.io/).
 
-My Frontend Mentor Profile - [@26TracyNjoroge](https://www.frontendmentor.io/profile/26TracyNjoroge)
+## My Frontend Mentor Profile
+[@26TracyNjoroge](https://www.frontendmentor.io/profile/26TracyNjoroge)
+
+---
 
 ## Projects
-
 Below is a list of the completed challenges:
 
 - [Blog Preview Page](https://frontend-mentor-blog-preview-page.vercel.app/)
@@ -22,7 +23,6 @@ Below is a list of the completed challenges:
 
 - [Results Summary Page](https://frontend-mentor-results-summary-page.vercel.app/)
 
-- [Qr Code Component](https://frontend-mentor-qr-code-component-smoky.vercel.app/)
+- [QR Code Component](https://frontend-mentor-qr-code-component-smoky.vercel.app/)
 
 - [Product Preview Card](https://frontend-mentor-product-preview-card-swart.vercel.app/)
-
