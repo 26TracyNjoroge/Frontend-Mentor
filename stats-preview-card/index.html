@@ -7,27 +7,33 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="stylesheet" href="styles.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <main class="stat-card-container">
 
-  Get insights that help your business grow.
+    <section class="stat-left-sect">
+      <h1 class="stat-heading">Get <span>insights</span> that help your business grow.</h1>
+      <p class="stat-details">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.</p>
+      <div class="stat-numbers">
+        10k+ companies
+        314 templates
+        12m+ queries
+      </div>
+    </section>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+    <picture class="stat-right-sect">
+      <source srcset="images/image-header-desktop.jpg" media="(min-width:700px)">
+        <img src="images/image-header-mobile.jpg" alt="" class="stats-img" />
+    </picture>
 
-  10k+ companies
-  314 templates
-  12m+ queries
+  </main>
 
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://github.com/26TracyNjoroge">Tracy Wangari</a>.
+  </footer>
 </body>
 </html>

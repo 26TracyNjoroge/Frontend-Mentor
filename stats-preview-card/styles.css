@@ -1,0 +1,78 @@
+:root {
+    /* Primary colors */
+    --primary-color: hsl(233, 47%, 7%);
+    --secondary-color: hsl(244, 38%, 16%);
+    --color-accent: hsl(277, 64%, 61%);
+
+    /* Neutral colors */
+
+    --white: hsl(0, 0%, 100%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+}
+
+*,
+*::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2,
+h3, h4,
+h5, h6 {
+    text-wrap: balance;
+} 
+
+p,
+li,
+figcaption {
+    max-width: 65ch;
+    text-wrap: pretty;
+}
+
+body {
+    background: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+}
+
+main {
+   display: flex; 
+   max-width: 40rem;
+}
+
+.stat-left-sect {
+    width: 50%;
+}
+
+.stat-right-sect {
+    width: 50%;
+}
+
+.stat-heading {
+    color: var(--white);
+}
+
+.stat-details {
+    color: var(--transparent-white);
+}
+
+.stat-numbers {
+    color: var(--slightly-transparent-white);
+}
+
+.attribution { 
+    font-size: 0.875rem; 
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    color: var(--transparent-white);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
