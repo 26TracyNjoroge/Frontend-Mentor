@@ -24,3 +24,5 @@ Below is a list of the completed challenges:
 
 - [Qr Code Component](https://frontend-mentor-qr-code-component-smoky.vercel.app/)
 
+- [Product Preview Card](https://frontend-mentor-product-preview-card-swart.vercel.app/)
+
