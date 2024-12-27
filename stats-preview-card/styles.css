@@ -128,3 +128,39 @@ main {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media (max-width: 700px) {
+    body {
+        padding: 30px;
+    }
+
+    main {
+        flex-direction: column;
+        max-width: 80%;
+
+    }
+
+    .stats-right-sect,
+    .stats-left-sect {
+        width: 100%;
+    }
+
+    .stats-left-sect {
+        border-top-right-radius: 8px;
+    }
+
+    .stats-right-sect {
+        border-bottom-left-radius: 8px;
+        border-top-right-radius: 0px;
+
+    }
+
+    .stats-img {
+        border-bottom-left-radius: 8px;
+        border-top-right-radius: 0px;
+    }
+
+    footer { 
+        display: none;
+    }
+}
