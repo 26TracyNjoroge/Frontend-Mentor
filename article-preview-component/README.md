@@ -4,8 +4,8 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ### Links
 
-- GitHub Repository: [Repository]()
-- Live Site URL: [Live Demo]()
+- GitHub Repository: [Repository](https://github.com/26TracyNjoroge/Frontend-Mentor/tree/main/article-preview-component)
+- Live Site URL: [Live Demo](https://frontend-mentor-article-preview-nine.vercel.app/)
 
 ## Author
 
